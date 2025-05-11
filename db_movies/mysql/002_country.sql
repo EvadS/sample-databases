@@ -9,7 +9,6 @@ CREATE TABLE movies.country (
   CONSTRAINT pk_country PRIMARY KEY (id)
 );
 
-
 INSERT INTO movies.country (id, country_iso_code, country_name) VALUES
 (128,'AE','United Arab Emirates'),
 (129,'AF','Afghanistan'),
