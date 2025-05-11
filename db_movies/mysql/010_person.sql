@@ -2,7 +2,7 @@
 DROP TABLE IF EXISTS movies.person;
 
 CREATE TABLE movies.person (
-  id INT NOT NULL,
+  id INT NOT NULL AUTO_INCREMENT,
   person_name varchar(500) DEFAULT NULL,
   CONSTRAINT pk_person PRIMARY KEY (id)
 );

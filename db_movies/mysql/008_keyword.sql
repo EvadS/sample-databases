@@ -1,12 +1,11 @@
 
 DROP TABLE IF EXISTS movies.keyword;
 
-CREATE TABLE movies.keyword (
-  id INT NOT NULL,
+CREATE TABLE movies.keyword ( 
+  id INT NOT NULL AUTO_INCREMENT,
   keyword_name varchar(100) DEFAULT NULL,
   CONSTRAINT pk_keyword PRIMARY KEY (id)
 );
-
 
 INSERT INTO movies.keyword (id, keyword_name) VALUES
 (30,'individual'),
